@@ -1,5 +1,6 @@
 variable "ec2_name" {
   type = string
+  default = "myapp"
 }
 variable "ami" {
   type = string
